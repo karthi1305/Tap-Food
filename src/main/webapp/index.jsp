@@ -13,7 +13,7 @@
 <body>
     <header>
         <nav>
-            <div class="logo animate__animated animate__bounce"><img src="images/logo.png" height="60px" alt="Tap Foods"></div>
+            <div class="logo animate__animated animate__bounce"><img src="images/logo.png" background= "transparent" height="60px" alt="Tap Foods"></div>
             <ul>
                 <% 
                 User user = (User) session.getAttribute("loggedInUser");
